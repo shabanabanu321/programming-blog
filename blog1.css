@@ -1,0 +1,51 @@
+
+body{
+   
+    font-family: cursive;
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px,1700px;
+
+    
+}
+.nav{
+    background-color:dodgerblue;
+    height: 70px;
+    display: flex;
+}
+.nav .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color:azure;
+    font-size: 34px;
+    padding: 65px;
+
+}
+.content h1{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(215, 215, 225);
+    text-shadow: 4px 5px 6px rgb(169, 47, 47);
+    width: 120px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.content p{
+    margin: 30px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color:azure;
+    text-shadow: 4px 5px 6px navy;    
+}
+
